@@ -1,7 +1,7 @@
 # Major-Minor Mean Field Multi-Agent Reinforcement Learning
-This is the official repository for multi-agent reinforcement learning (MARL) based on major-minor mean field control. It formally reduces certain MARL problems to single-agent reinforcement learning, and then applies single-agent policy gradient methods (such as PPO) as a MARL algorithm. 
+This is the official repository for multi-agent reinforcement learning (MARL) based on major-minor mean field control. It formally reduces certain MARL problems to single-agent reinforcement learning (RL), and then applies single-agent policy gradient methods (such as PPO) as a MARL algorithm. The implementation is based on [MARLlib](https://github.com/Replicable-MARL/MARLlib) and writing a wrapper for MFC-type MARL problems, turning them into single-agent RL problems.
 
-## Requirements
+## Setup
 
 Create a python==3.8.17 environment, e.g.
 ```shell script
